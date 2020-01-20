@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "NicoMediaShow",
+    "version": "1.0",
+    "description": "ニコ動をMediaSession APIになんとなく対応させる",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.nicovideo.jp/watch/*"
+            ],
+            "js": [
+                "media.js"
+            ]
+        }
+    ]
+}
